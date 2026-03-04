@@ -1,0 +1,30 @@
+name: Publish Helm Charts
+
+on:
+  push:
+    branches:
+      - main
+
+jobs:
+  package-and-publish:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout repo
+        uses: actions/checkout@v3
+
+      - name: Setup Helm
+        uses: azure/setup-helm@v3
+        with:
+          version: v3.12.0
+
+      - name: Package Helm charts
+        run: |
+          helm package backend
+          helm package database
+
+      - name: Upload charts
+        uses: actions/upload-artifact@v3
+        with:
+          name: helm-charts
+          path: "*.tgz"
