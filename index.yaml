@@ -1,0 +1,45 @@
+apiVersion: v1
+entries:
+  backend:
+  - apiVersion: v2
+    appVersion: 1.16.0
+    created: "2026-03-04T14:45:48.216264+05:30"
+    description: A Helm chart for Kubernetes
+    digest: bbac53662e644454fb8c8bd32bfe359e874d025afc744dd5f27dc462f75961bd
+    name: backend
+    type: application
+    urls:
+    - https://sathwikanjali-angelone.github.io/helm-charts-repo/backend-0.1.0.tgz
+    version: 0.1.0
+  - apiVersion: v2
+    appVersion: 1.16.0
+    created: "2026-03-04T14:45:48.217973+05:30"
+    description: A Helm chart for Kubernetes
+    digest: 6411523f1f8d269b8ea3aedf43271b8ce6c92550885585ceb5aaf2e78129ecbd
+    name: backend
+    type: application
+    urls:
+    - https://sathwikanjali-angelone.github.io/helm-charts-repo/backend/backend-0.1.0.tgz
+    version: 0.1.0
+  database:
+  - apiVersion: v2
+    appVersion: 1.16.0
+    created: "2026-03-04T14:45:48.217166+05:30"
+    description: A Helm chart for Kubernetes
+    digest: cb8e6803527a759433890a43c37b3b9bdd4d26359341ee9e5c147ca528f2e07a
+    name: database
+    type: application
+    urls:
+    - https://sathwikanjali-angelone.github.io/helm-charts-repo/database-0.1.0.tgz
+    version: 0.1.0
+  - apiVersion: v2
+    appVersion: 1.16.0
+    created: "2026-03-04T14:45:48.21885+05:30"
+    description: A Helm chart for Kubernetes
+    digest: 2c06714fa4a68bdb01a2bd4524d195da46a9cffef711e22dd8c3d29600b0b4d2
+    name: database
+    type: application
+    urls:
+    - https://sathwikanjali-angelone.github.io/helm-charts-repo/database/database-0.1.0.tgz
+    version: 0.1.0
+generated: "2026-03-04T14:45:48.215147+05:30"
